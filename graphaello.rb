@@ -6,6 +6,6 @@ class Graphaello < Formula
   sha256 "84dc5fb14a61075bceaf6fe065bf961f61a69ebef3691cd950c14eed297f536a"
 
   def install
-    system "mv", "-v", "./*", "#{prefix}/*"
+    system "cp", "-R", ".", prefix
   end
 end
