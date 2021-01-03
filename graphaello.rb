@@ -6,7 +6,7 @@ class Graphaello < Formula
   sha256 "84dc5fb14a61075bceaf6fe065bf961f61a69ebef3691cd950c14eed297f536a"
 
   def install
-    system "tar", "xf", "01.tar" 
-    system "mv", "-v", "./01/*", :prefix
+    system "ls"
+    system "mv", "-v", "./release/*", :prefix
   end
 end
