@@ -1,9 +1,9 @@
 class Graphaello < Formula
   desc "Manages the state of the GraphQL Integrations in your project"
   homepage "https://github.com/nerdsupremacist/Graphaello"
-  version "0.1.0-alpha.19"
-  url "https://github.com/nerdsupremacist/Graphaello/releases/download/0.1.0-alpha.19/release.tar.gz", :using => :curl
-  sha256 "a62eae205c70bd1948d125508abecbb111826e291e1be3a3b84c453cbb6bdc6e"
+  version "0.1.0-alpha.20"
+  url "https://github.com/nerdsupremacist/Graphaello/releases/download/0.1.0-alpha.20/release.tar.gz", :using => :curl
+  sha256 "5af7e099b208795aea4c339889c2f9a2c34d335a32c3a47433bd2c2ba0e1dde4"
 
   def install
     system "cp", "-R", ".", prefix
