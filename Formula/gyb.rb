@@ -6,7 +6,7 @@
 class Gyb < Formula
   desc "\"Generate Your Boilerplate\""
   homepage "https://nshipster.com/swift-gyb/"
-  url "https://raw.githubusercontent.com/apple/swift/3dfc40898cdf6980bac4f6987e57719346833470/utils/gyb.py"
+  url "https://raw.githubusercontent.com/apple/swift/3dfc40898cdf6980bac4f6987e57719346833470/utils/gyb"
   version "2022-04-13"
   sha256 "5965040b4c04528191d392d57282b1c5970fb8c3fedf1fb64bf6412173d6ac72"
 
