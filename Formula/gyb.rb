@@ -8,7 +8,7 @@ class Gyb < Formula
   homepage "https://nshipster.com/swift-gyb/"
   url "https://raw.githubusercontent.com/apple/swift/3dfc40898cdf6980bac4f6987e57719346833470/utils/gyb"
   version "2022-04-13"
-  sha256 "5965040b4c04528191d392d57282b1c5970fb8c3fedf1fb64bf6412173d6ac72"
+  sha256 "5647355be7d91007cc4c849da79bea235a7d7f97871384f0d12f639402d53190"
 
   depends_on xcode: ["10.0", :build]
 
