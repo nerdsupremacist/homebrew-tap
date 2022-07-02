@@ -21,7 +21,7 @@ class Gyb < Formula
 
   def install
     resource("gyb.py").stage { bin.install "gyb.py" }
-    bin.install "gyb"
+#     bin.install "gyb"
     chmod 0755, bin/"gyb"
   end
 
